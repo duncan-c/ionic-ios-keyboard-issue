@@ -1,5 +1,7 @@
 {
   "name": "iOS Keyboard Test",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
