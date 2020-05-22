@@ -1,9 +1,9 @@
 
 <ion-content [fullscreen]="true">
 
-  <div (click)="inputTest.setFocus(); inputValue = ''">
+  <div (click)="inputTest.setFocus();">
     <ion-textarea autocapitalize="sentences" spellcheck #inputTest [(ngModel)]="inputValue" placeholder="Type here"></ion-textarea>
-    <ion-button>Go</ion-button>
+    <ion-button (click)="inputValue = ''">Go</ion-button>
   </div>
 
 </ion-content>
